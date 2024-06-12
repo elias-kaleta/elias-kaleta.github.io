@@ -6,46 +6,73 @@ a:active {
   text-decoration: none;
 }
 
-h1 {
-  color: white;
-  font-family: 'Tiny5', Arial, Helvetica, sans-serif;
-  padding-left: 20px;
+/* widescreen displays */
+@media only screen and (min-width: 920px) {
+  .pagetitle {
+    float: right;
+  }
+
+  .navbar {
+    background-color: green;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  .navitems {
+    display: inline;
+    padding-right: 40px;
+    color: white;
+    /* float: right; */
+  }
+
+  .active {
+    background-color: rgb(1, 95, 1);
+    color: white;
+  }
+
+  h1 {
+    color: white;
+    font-family: 'Tiny5', Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+  }
+
+  body {
+    background-color: rgb(200, 200, 200);
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  #about-me {
+    /* background-color: grey;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px; */
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
+  }
+
+  #content {
+    font-size: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50vmin;
+  }
 }
 
-.logo {
-  background-color: rgb(64, 124, 73);
+/* tablets */
+@media only screen and (max-width: 919px) {
+  .container {
+    /* some layout rules */
+  }
 }
 
-body {
-  background-color: rgb(200, 200, 200);
-}
-
-img {
-  max-width: 500px;
-  height: auto;
-}
-
-.navbar {
-  background-color: green;
-  align-items: end;
-}
-
-.navitems {
-  display: inline;
-  padding-right: 20px;
-  color: white;
-}
-
-.active {
-  background-color: rgb(1, 95, 1);
-  color: white;
-  padding-left: 10px;
-}
-
-p {
-  line-height: 20px;
-}
-
-.textbox {
-  max-width: 500px;
+/* phones */
+@media only screen and (max-width: 400px) {
+  .container {
+    /* some layout rules */
+  }
 }
