@@ -25,27 +25,6 @@ footer {
   border-radius: 25px;
 }
 
-#fixed-element {
-  position: fixed;
-  background-color: blueviolet;
-}
-
-#absolute-element {
-  position: absolute;
-  background-color: rgb(47, 119, 120);
-}
-
-#relative-element {
-  position: relative;
-  padding-left: 100px;
-  background-color: rgb(127, 134, 28);
-}
-
-#placeholder {
-  padding-left: 600px;
-  background-color: rgb(105, 169, 170);
-}
-
 /* widescreen displays */
 @media only screen and (min-width: 1500px) {
   .pagetitle {
@@ -94,6 +73,27 @@ footer {
     padding-left: 20px;
     font-size: 30px;
   }
+
+  #fixed-element {
+    position: fixed;
+    background-color: blueviolet;
+  }
+
+  #absolute-element {
+    position: absolute;
+    background-color: rgb(47, 119, 120);
+  }
+
+  #relative-element {
+    position: relative;
+    padding-left: 100px;
+    background-color: rgb(127, 134, 28);
+  }
+
+  #placeholder {
+    padding-left: 600px;
+    background-color: rgb(105, 169, 170);
+  }
 }
 
 /* tablets */
@@ -137,6 +137,27 @@ footer {
     padding-left: 20px;
     font-size: 30px;
   }
+
+  #fixed-element {
+    position: fixed;
+    background-color: blueviolet;
+  }
+
+  #absolute-element {
+    position: absolute;
+    background-color: rgb(47, 119, 120);
+  }
+
+  #relative-element {
+    position: relative;
+    padding-left: 100px;
+    background-color: rgb(127, 134, 28);
+  }
+
+  #placeholder {
+    padding-left: 600px;
+    background-color: rgb(105, 169, 170);
+  }
 }
 
 /* phones */
@@ -179,6 +200,28 @@ footer {
     font-family: 'Tiny5', Arial, Helvetica, sans-serif;
     padding-left: 20px;
     font-size: 30px;
+  }
+
+  #fixed-element {
+    position: fixed;
+    top: 800px;
+    background-color: blueviolet;
+  }
+
+  #absolute-element {
+    position: absolute;
+    background-color: rgb(47, 119, 120);
+  }
+
+  #relative-element {
+    position: relative;
+    padding-left: 10vw;
+    background-color: rgb(127, 134, 28);
+  }
+
+  #placeholder {
+    padding-left: 30vw;
+    background-color: rgb(105, 169, 170);
   }
 }
 
