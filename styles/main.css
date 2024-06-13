@@ -23,6 +23,23 @@ footer {
   text-align: center;
 }
 
+#fixed-element {
+  position: fixed;
+}
+
+#absolute-element {
+  position: absolute;
+}
+
+#relative-element {
+  position: relative;
+  padding-left: 100px;
+}
+
+#placeholder {
+  padding-left: 600px;
+}
+
 /* widescreen displays */
 @media only screen and (min-width: 1500px) {
   .pagetitle {
@@ -56,14 +73,15 @@ footer {
     /* height: 100%; */
   }
 
-  #content {
+  .content {
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
     width: 50vw;
+    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
   }
 
-  h1 {
+  logo {
     color: white;
     font-family: 'Tiny5', Arial, Helvetica, sans-serif;
     padding-left: 20px;
@@ -103,9 +121,10 @@ footer {
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
   }
 
-  h1 {
+  logo {
     color: white;
     font-family: 'Tiny5', Arial, Helvetica, sans-serif;
     padding-left: 20px;
@@ -145,12 +164,24 @@ footer {
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
   }
 
-  h1 {
+  logo {
     color: white;
     font-family: 'Tiny5', Arial, Helvetica, sans-serif;
     padding-left: 20px;
     font-size: 30px;
   }
+}
+
+#position-list {
+  font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
+  line-height: 2;
+}
+
+h1 {
+  font-family: 'Lilita One', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: rgb(1, 138, 1);
 }
