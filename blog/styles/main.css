@@ -12,7 +12,7 @@ a:active {
 
 .active {
   background-color: rgb(1, 95, 1);
-  border-radius: 25px;
+  padding-left: 5px;
 }
 
 body {
@@ -33,6 +33,27 @@ footer {
 html {
   height: 100%;
 }
+
+p,
+li {
+  font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
+}
+
+#position-list {
+  font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
+  line-height: 2;
+}
+
+h1 {
+  font-family: 'Lilita One', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: rgb(1, 138, 1);
+}
+
+h2 {
+  font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
+}
+
 /* widescreen displays */
 @media only screen and (min-width: 1500px) {
   .pagetitle {
@@ -71,7 +92,6 @@ html {
     padding-left: 20px;
     padding-right: 20px;
     width: 50vw;
-    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
   }
 
   logo {
@@ -113,6 +133,11 @@ html {
     background: #333;
     color: white;
     border: 1px solid gray;
+  }
+
+  .sidenavitem {
+    width: auto;
+    padding-bottom: 10px;
   }
 
   .blog-tile {
@@ -215,6 +240,11 @@ html {
     border: 1px solid gray;
   }
 
+  .sidenavitem {
+    width: auto;
+    padding-bottom: 10px;
+  }
+
   .blog-tile {
     width: 100%;
     object-fit: contain;
@@ -312,6 +342,7 @@ html {
 
   .sidenavitem {
     width: auto;
+    padding-bottom: 10px;
   }
 
   .blog-tile {
@@ -334,15 +365,4 @@ html {
     padding: 30px;
     background-color: bisque;
   }
-}
-
-#position-list {
-  font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
-  line-height: 2;
-}
-
-h1 {
-  font-family: 'Lilita One', Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  color: rgb(1, 138, 1);
 }
