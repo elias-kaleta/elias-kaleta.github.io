@@ -26,15 +26,41 @@ footer {
   height: 30px;
   padding-top: 10px;
   text-align: center;
-  border-radius: 25px;
+}
+
+#sidenav {
+  position: absolute;
+  width: 20vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #333;
+  color: white;
+  border: 1px solid gray;
 }
 
 .blog-tile {
-  width: 100vw;
+  width: 100%;
+  object-fit: contain;
 }
 
 .blog-preview-image {
-  width: 100vw;
+  width: 100%;
+  object-fit: contain;
+}
+
+.blog-name {
+  position: relative;
+}
+
+#reflections {
+  position: relative; /* define a new containing block */
+  margin-left: 20vw;
+  max-width: 80vw;
+  min-height: 100vh;
+  padding: 0 1rem;
+  border: 1px solid gray;
+  background-color: bisque;
 }
 
 /* widescreen displays */
@@ -47,7 +73,6 @@ footer {
     background-color: green;
     padding-bottom: 5px;
     padding-top: 5px;
-    border-radius: 25px;
   }
 
   .navitems {
