@@ -21,6 +21,9 @@ body {
   height: auto;
 }
 
+.ref {
+  font-size: 10px;
+}
 footer {
   position: relative;
   text-decoration: underline;
@@ -32,7 +35,7 @@ footer {
 }
 
 html {
-  height: auto;
+  width: 100%;
 }
 
 p,
@@ -273,7 +276,7 @@ h2 {
     min-height: 100%;
     padding: 0 1rem;
     border: 1px solid gray;
-    background-color: bisque;
+    background-color: #ffe4c4;
   }
 }
 
