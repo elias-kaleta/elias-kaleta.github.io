@@ -1,0 +1,100 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>JavaScript Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles/cafe.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body id="top">
+    <nav class="navbar">
+      <logo class="navitems">Elias Kaleta</logo>
+      <ul class="navitems">
+        <li class="navitems pagetitle">
+          <a href="../index.html">About Me</a>
+        </li>
+        <li class="navitems pagetitle">
+          <a href="../blog.html">Blog</a>
+        </li>
+        <li class="navitems pagetitle">
+          <a href="../te-houtaewa-template.html">Te-Houtaewa</a>
+        </li>
+        <li class="navitems active pagetitle">
+          <a href="java.html">Javascript Cafe</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="blog-section">
+      <h1>JavaScript Café</h1>
+      <div class="container grid">
+        <div class="grid-item">
+          <p id="whiteCoffee" class=""></p>
+          <button class="button" id="restock-whiteCoffee">
+            Restock White Coffee
+          </button>
+        </div>
+        <div class="grid-item">
+          <p id="blackCoffee" class=""></p>
+          <button class="button" id="restock-blackCoffee">
+            Restock Black Coffee
+          </button>
+        </div>
+        <div class="grid-item">
+          <p id="applePie" class=""></p>
+          <button class="button" id="restock-applePie">
+            Restock Apple Pie
+          </button>
+        </div>
+        <div class="grid-item">
+          <p id="blueberryMuffin" class=""></p>
+          <button class="button" id="restock-blueberryMuffin">
+            Restock Blueberry Muffin
+          </button>
+        </div>
+        <div class="grid-item">
+          <p id="biscoffMuffin" class=""></p>
+          <button class="button" id="restock-biscoffMuffin">
+            Restock Biscoff Muffin
+          </button>
+        </div>
+        <div class="grid-item">
+          <div class="sidegrid">
+            <p id="eggs" class="sidegrid-item"></p>
+
+            <div class="sidegrid-item">
+              <button class="button" id="restock-scrambledEggs">
+                Restock Scrambled Eggs
+              </button>
+              <button class="button" id="restock-poachedEggs">
+                Restock Poached Eggs
+              </button>
+              <button class="button" id="restock-friedEggs">
+                Restock Fried Eggs
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="customerSection">
+          <p id="customerOrder"></p>
+          <p id="customerWallet"></p>
+          <p id="cash"></p>
+        </div>
+        <div class="customerSection">
+          <button class="button" id="customerButton">Generate Customer</button>
+          <button class="button" id="fillOrder">Serve Customer</button>
+        </div>
+      </div>
+
+      <!-- <button class="button" id="restockButton">Restock Product</button> -->
+      <script src="cafe.js"></script>
+    </section>
+  </body>
+  <footer><a href="#top">Back to top hehe</a></footer>
+</html>
