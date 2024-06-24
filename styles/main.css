@@ -76,8 +76,13 @@ h2 {
   justify-content: center;
 }
 
-.link {
-  text-decoration: underline;
+.grid-plan {
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  display: grid;
+  position: relative;
+  grid-auto-flow: column;
+  justify-content: center;
 }
 
 .grid-item {
@@ -85,6 +90,11 @@ h2 {
   border: 1px solid black;
   padding: 0 1em;
 }
+
+.link {
+  text-decoration: underline;
+}
+
 /* widescreen displays */
 @media only screen and (min-width: 1500px) {
   .pagetitle {
