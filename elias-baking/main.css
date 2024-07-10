@@ -1,0 +1,112 @@
+/* // -- JAVASCRIPT CAFE CSS -- // */
+
+body {
+  background: white;
+  background-size: 100px 100px;
+  font-family: 'Fira Code', monospace;
+  text-align: left;
+  padding-left: 10px;
+}
+
+p {
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4vw;
+  font-weight: 700;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.65);
+  border: 3px solid black;
+  border-radius: 3px;
+  width: 60%;
+  height: auto;
+  padding: 0px 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  backdrop-filter: blur(11.7px);
+  -webkit-backdrop-filter: blur(11.7px);
+}
+
+#customerOrder {
+  word-wrap: break-word;
+}
+
+.red {
+  color: red;
+}
+
+.button {
+  font-family: 'Fira Code', monospace;
+  font-size: 1vw;
+  font-weight: 250;
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: 3px solid black;
+  border-radius: 3px;
+  color: white;
+  background: black;
+  padding: 12px 20px;
+  text-align: center;
+  transition-duration: 0.15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0px 10px 10px 10px;
+}
+
+button:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(11.7px);
+  -webkit-backdrop-filter: blur(11.7px);
+}
+
+.brownie-grid-plan {
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  display: grid;
+  position: relative;
+  grid-auto-flow: column;
+  justify-content: left;
+  padding-top: 0px;
+}
+
+.brownie-grid-bar {
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  display: grid;
+  position: relative;
+  grid-auto-flow: column;
+  justify-content: left;
+}
+
+.brownie-grid-item {
+  color: black;
+  border: 1px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h3 {
+  margin-top: -20px;
+  margin-bottom: 5px;
+}
+
+.invisible {
+  display: none;
+}
+
+.grey {
+  background-color: grey;
+}
+
+#navbar {
+  max-height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

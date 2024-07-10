@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Elias Baking Calculator hehe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <logo class="navitems">Elias Kaleta</logo>
+      <ul class="navitems">
+        <li class="navitems pagetitle">
+          <a href="../index.html">About Me</a>
+        </li>
+        <li class="navitems pagetitle">
+          <a href="../blog/blog.html">Blog</a>
+        </li>
+        <li class="navitems pagetitle">
+          <a href="../te-houtaewa-template.html">Te-Houtaewa</a>
+        </li>
+        <li class="navitems pagetitle">
+          <a href="../javascript-cafe/java.html">Javascript Cafe</a>
+        </li>
+        <li class="navitems active pagetitle">
+          <a href="main.html">Dubai Brownie</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section>
+      <h1>Dubai Brownie</h1>
+      <label for="batchInput">How many batches?</label>
+      <input type="text" id="batchInput" />
+      <button onclick="updateBatch()">Recalculate</button>
+
+      <div id="navbar">
+        <button class="button" id="brownie"><h2>Brownie</h2></button>
+        <button class="button" id="barChoc"><h2>Chocolate Bar</h2></button>
+        <button class="button" id="shoppingList"><h2>Shopping List</h2></button>
+      </div>
+
+      <div id="brownieSection" class="">
+        <h3 id="brownieCount"></h3>
+        <div class="brownie-grid-plan">
+          <span class="brownie-grid-item"><p id="flour" class=""></p></span>
+          <span class="brownie-grid-item"
+            ><p id="cocoaPowder" class=""></p
+          ></span>
+          <span class="brownie-grid-item"><p id="salt" class=""></p></span>
+          <span class="brownie-grid-item"><p id="butter" class=""></p></span>
+          <span class="brownie-grid-item"><p id="sweetChoc" class=""></p></span>
+          <span class="brownie-grid-item"><p id="darkChoc" class=""></p></span>
+          <span class="brownie-grid-item"><p id="sugar" class=""></p></span>
+          <span class="brownie-grid-item"><p id="eggs" class=""></p></span>
+          <span class="brownie-grid-item"><p id="vanilla" class=""></p></span>
+        </div>
+      </div>
+
+      <div id="chocBarSection" class="invisible">
+        <h3 id="barCount"></h3>
+        <div class="brownie-grid-bar">
+          <span class="brownie-grid-item"
+            ><p id="sweetChocBar" class=""></p
+          ></span>
+          <span class="brownie-grid-item"
+            ><p id="darkChocBar" class=""></p
+          ></span>
+          <span class="brownie-grid-item"
+            ><p id="pistachioCreamBar" class=""></p
+          ></span>
+        </div>
+      </div>
+
+      <div id="shoppingListSection" class="invisible">
+        <h3 id="barCount"></h3>
+        <div class="brownie-grid-bar">
+          <span class="brownie-grid-item"
+            ><p id="flourTotal" class=""></p
+          ></span>
+          <span class="brownie-grid-item"
+            ><p id="cocoaPowderTotal" class=""></p
+          ></span>
+          <span class="brownie-grid-item"><p id="saltTotal" class=""></p></span>
+          <span class="brownie-grid-item"
+            ><p id="butterTotal" class=""></p
+          ></span>
+          <span class="brownie-grid-item"
+            ><p id="sweetChocTotal" class=""></p
+          ></span>
+          <span class="brownie-grid-item"
+            ><p id="darkChocTotal" class=""></p
+          ></span>
+          <span class="brownie-grid-item"
+            ><p id="sugarTotal" class=""></p
+          ></span>
+          <span class="brownie-grid-item"><p id="eggsTotal" class=""></p></span>
+          <span class="brownie-grid-item"
+            ><p id="vanillaTotal" class=""></p
+          ></span>
+          <span class="brownie-grid-item"
+            ><p id="pistachioCreamBarTotal" class=""></p
+          ></span>
+        </div>
+      </div>
+      <p id="total"></p>
+      <p id="scratchTotal"></p>
+      <script src="script.js"></script>
+    </section>
+  </body>
+</html>
