@@ -2,8 +2,9 @@
   "compilerOptions": {
     "types": ["vite/client"],
     "target": "es2020", 
-    "jsx": "react-jsx",
+    "jsx": "react",
     "module": "ES2020",
+    "outDir": "./dist",
     "moduleResolution": "Bundler", 
     "noEmit": true,
     "isolatedModules": true, 
@@ -13,5 +14,7 @@
     "allowImportingTsExtensions": true,
     "allowJs": true,
     "skipLibCheck": true
-  }
+  },
+  "include": ["client/**/*.ts", "client/**/*.tsx"],
+  "exclude": ["node_modules"]
 }
